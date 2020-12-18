@@ -1,0 +1,12 @@
+@font-face{
+    font-family: 'Logo';
+    src: url(../fonts/logo.ttf);
+}
+@font-face{
+    font-family: 'default_text';
+    src: url(../fonts/default_text.ttf);
+}
+@font-face{
+    font-family: 'bootstrap_logo';
+    src: url(../fonts/bootstrap/logo.otf);
+}

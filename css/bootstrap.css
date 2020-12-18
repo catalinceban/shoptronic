@@ -1,0 +1,291 @@
+@import url('fonts.css');
+body{
+    margin: 0 auto;
+    width: 1252px;
+    background-color: rgb(27, 27, 27);
+}
+/* Header */
+header .headerTop {
+    width: 100%;
+    padding: 25px;
+    background-color: rgb(45, 45, 45);
+    border-bottom-left-radius:25px;
+    border-bottom-right-radius:25px;
+}
+header .headerTop nav a {
+    color: white;
+    margin:0px 15px;
+    font-size:18px;
+}
+header .headerTop nav i{
+    margin-right: 15px;
+    transition-duration: .2s;
+}
+header .headerTop nav a:hover i{
+    color: rgb(255, 21, 72);
+    transition-duration: .3s;
+    transform: scale(1.8);
+}
+header .headerTop nav.header-control{
+    margin-left: 350px;
+    color: rgb(255, 21, 72) ;
+}
+
+header .headerBottom nav .navbar-brand{
+    color:white;
+    font-family: 'bootstrap_logo';
+    font-size: 35px;
+    transition-duration: .5s;
+    letter-spacing: .15em;
+}
+header .headerBottom nav .navbar-brand:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+    color: rgb(255, 21, 72);
+    transition-duration: .3s;
+}
+header .headerBottom nav .navbar-brand:hover i{
+    color: white;
+    transform: rotate(-25deg);
+}
+header .headerBottom nav .navbar-brand i{
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 45px;
+    color: rgb(255, 21, 72);
+    transition-duration: .3s;
+}
+header .headerBottom nav .form-inline input{
+    width: 450px;
+    font-size: 18px;
+    background-color: rgb(255, 21, 72);
+    color: white;
+    border: 1px solid transparent;
+    transition-duration: .3s;
+    border-radius: 10px;
+    padding: 9px 25px;
+}
+header .headerBottom nav .form-inline input::placeholder{
+    color: white;
+    transition-duration: .6s;
+    font-weight: bold;
+}
+header .headerBottom nav .form-inline input:focus::placeholder{
+    transform: translate(550px);
+    color: rgb(255, 21, 72);
+    transition-duration: 0.7s;
+}
+header .headerBottom nav .form-inline input:focus{
+    background-color: white;
+    box-shadow: none;
+    transition-duration: .5s;
+    color: rgb(255, 21, 72);
+}
+header .headerBottom nav .form-inline button{
+    background-color: rgb(255, 21, 72);
+    border: 1px solid transparent;
+    color: white;
+    font-weight: bold;
+}
+header .headerBottom nav .form-inline button:hover{
+    box-shadow: 0px 5px 0px rgb(151, 12, 42);
+    transition-duration: .2s;
+}
+/* End header */
+/* Categories */
+#categories{
+    width: 100%;
+    text-align: center;
+    padding: 25px;
+    margin-bottom: 2%;
+    background: rgb(45, 45, 45);
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    font-size: 19px;
+    font-weight: bold;
+}
+#categories a{
+    margin-left: 50px;
+    padding: 15px;
+    background-color: rgb(27, 27, 27);
+    color:white;
+    border-radius: 8px;
+    transition-duration: .2s;
+    text-decoration: none;
+}
+#categories a:hover{
+    transition-duration: .4s;
+    box-shadow: 5px 5px 0px rgb(255, 21, 72) inset;
+    color: rgb(255, 21, 72);
+}
+#categories a i{
+    font-size: 25px;
+    margin-right: 10px;
+}
+/* End Categories */
+#carouselExampleInterval .carousel-inner .carousel-item img{
+    width: 150px;
+    position: relative;
+    left: 250px;
+}
+section .card{
+    padding: 25px;
+    margin-top: 25px;
+    width: 270px;
+    transition-duration: .3s;
+    background: white;
+    color: rgb(141, 141, 141);
+}
+section .card:hover{
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    transition-duration: .4s;
+    border: 5px solid rgb(151, 12, 42);
+    box-shadow: 5px 5px rgb(151, 12, 42);
+}
+section .card:hover img{
+    transition-duration: .4s;
+    transform: scale(0.8);
+}
+
+section .card img{
+    transition-duration: .3s;
+    margin: 0 auto;
+    width: 150px;
+}
+
+section .card .card-body{
+    text-align: center;
+}
+section .card:hover button{
+    transition-duration: .4s;
+    box-shadow: 0px 5px rgb(151, 12, 42) ;   
+}
+section .card .card-body span{
+    font-size: 14px;
+    color: rgb(172, 172, 172);
+}
+section .card .card-body .price{
+    font-weight: bold;
+    font-size: 19px;
+}
+section .card .card-body .card-text{
+    color: rgb(255, 21, 72);
+}
+section .card .card-body button{
+    color: white;
+    background: rgb(255, 21, 72);
+    border-color: transparent;
+    transition-duration: .3s;
+    font-size: 19px;
+}
+section h2{
+    color: white;
+}
+section nav .pagination-lg  .active .page-link{
+    background: rgb(255, 21, 72);
+    border: 1px solid rgb(255, 21, 72);
+    color: white;
+}
+section nav .pagination-lg  .page-item .page-link{
+    background: transparent;
+    border: transparent;
+    color: white;
+}
+#accordionExample .card{
+    background: rgb(45, 45, 45);
+}
+#accordionExample .card button{
+    color: rgb(255, 21, 72);
+    text-decoration: none;
+    box-shadow: none;
+    font-size: 20px;
+}
+#accordionExample .card button:hover{
+    color: white;
+}
+#accordionExample .card .card-body ul li a{
+    color: white;
+    font-size: 19px;
+}
+#accordionExample .card .card-body ul li a:hover{
+    color: rgb(141, 141, 141);
+    font-size: 19px;
+}
+#footer .nav-footer{
+    padding: 15px;
+    display: inline-block;
+}
+#footer .nav-footer h2{
+    margin: 0%;
+    color: white;
+    font-size: 30px;
+}
+#footer .nav-footer li{
+    list-style: none;
+}
+
+#footer .nav-footer li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#footer .about-footer{
+    padding: 25px;
+    display: inline-block;
+    width: 60%;
+}
+#footer .about-footer p{
+    text-shadow: 0px 0px 2px black;
+    color: white;
+    font-size: 17px;
+}
+#footer .about-footer  .footer-social i{
+    color:white;
+    margin:0px 10px;
+    padding: 10px 10px;
+    transition-duration: .2s;
+}
+
+#footer .about-footer .footer-social i:hover{
+    transform: scale(2);
+    color:rgb(255, 21, 72);
+    transition-duration: .3s;
+}
+#footer  a{
+    color:white;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Logo';
+    padding: 20px;
+    transition-duration: .5s;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+#footer .navbar-brand{
+    display: inline-block;
+    color:white;
+    font-family: 'bootstrap_logo';
+    font-size: 35px;
+    transition-duration: .5s;
+    letter-spacing: .15em;
+}
+#footer  .navbar-brand:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+    color: rgb(255, 21, 72);
+    transition-duration: .3s;
+}
+#footer  .navbar-brand:hover i{
+    color: white;
+    transform: rotate(-25deg);
+}
+#footer  .navbar-brand i{
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 45px;
+    color: rgb(255, 21, 72);
+    transition-duration: .3s;
+}
